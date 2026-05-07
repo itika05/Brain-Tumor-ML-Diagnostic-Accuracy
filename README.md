@@ -4,6 +4,31 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
+---
+
+## 📋 Executive Summary
+
+Brain tumors represent a critical healthcare challenge, with accurate and timely diagnosis being essential for patient outcomes. This repository contains a **comprehensive systematic review and meta-analysis** examining the diagnostic accuracy of machine learning models in brain tumor classification and detection. Our analysis synthesizes evidence from multiple peer-reviewed studies, comparing various ML techniques and their real-world performance metrics.
+
+### 🎯 What This Project Does
+
+This is a **research-driven meta-analysis** that:
+- 🔬 **Aggregates findings** from dozens of published studies on ML-based brain tumor diagnosis
+- 📊 **Compares performance** across Deep Learning (CNNs), Radiomics, Ensemble, and Classical ML approaches
+- 📈 **Provides evidence** on which ML approaches perform best for brain tumor detection
+- ✅ **Assesses quality** of studies using rigorous QUADAS-2 and PRISMA guidelines
+- 🔍 **Identifies trends** in how ML model performance has evolved over time
+
+### 🏥 Why This Matters
+
+Machine learning has revolutionized medical imaging analysis. However, many studies report varying diagnostic accuracies (typically 75-95%). This meta-analysis answers critical questions:
+- Which ML approaches are most effective for brain tumor diagnosis?
+- How reliable are these reported accuracies?
+- What factors influence diagnostic performance?
+- How does performance vary by tumor type and imaging modality?
+
+---
+
 ## 📋 Overview
 
 This repository contains a comprehensive **systematic review and meta-analysis** of machine learning models used for brain tumor diagnostic accuracy. The project systematically evaluates various ML approaches including deep learning (CNNs), radiomics, ensemble methods, and classical machine learning algorithms for their diagnostic performance in brain tumor classification.
@@ -15,14 +40,64 @@ This repository contains a comprehensive **systematic review and meta-analysis**
 - 🔬 **Rigorous Methodology**: PRISMA and QUADAS-2 standards applied for quality assessment
 - 📋 **Structured Data**: Organized data extraction with standardized fields
 
-## 🎯 Objectives
+## 🎯 Research Objectives
 
-This meta-analysis aims to:
-1. **Synthesize evidence** on the diagnostic accuracy of ML models for brain tumors
-2. **Compare performance** across different ML techniques and study designs
-3. **Evaluate bias** using QUADAS-2 risk assessment methodology
-4. **Identify trends** through meta-regression and temporal analysis
-5. **Assess publication bias** using funnel plots and trim-fill methods
+This meta-analysis comprehensively addresses five critical research questions:
+
+1. **Synthesize Evidence** 📚
+   - What is the pooled diagnostic accuracy of ML models for brain tumor detection?
+   - How do sensitivity and specificity values compare across studies?
+
+2. **Compare Approaches** 🔄
+   - Which ML technique performs best? (Deep Learning vs. Radiomics vs. Ensemble vs. Classical ML)
+   - Are there significant differences in performance between tumor types (high-grade vs. low-grade)?
+
+3. **Evaluate Quality** ✅
+   - What is the risk of bias in included studies?
+   - How many studies meet high-quality diagnostic accuracy criteria?
+
+4. **Identify Trends** 📈
+   - How has ML performance improved over time (temporal analysis)?
+   - Does sample size influence reported accuracy?
+   - Which imaging modalities (MRI, CT, etc.) show better performance?
+
+5. **Assess Publication Bias** 🔍
+   - Are positive results preferentially published?
+   - What is the true effect size after correcting for publication bias?
+
+---
+
+## 💼 Research Context
+
+**Institution**: Yaqin Uddin Lab
+**Research Area**: Machine Learning in Medical Imaging | Diagnostic Oncology
+**Year**: 2026
+**Study Type**: Systematic Review & Meta-Analysis (PRISMA-Compliant)
+
+**Target Audience**:
+- Clinical researchers and oncologists
+- AI/ML researchers in medical imaging
+- Healthcare policy makers
+- Clinicians evaluating AI diagnostic tools
+
+## ⚡ Quick Start
+
+**Want to see the results immediately?**
+→ Check out the `Figures/` directory for all 10 publication-quality visualizations
+
+**Want to regenerate figures from raw data?**
+```bash
+# Install dependencies
+pip install pandas numpy matplotlib seaborn scipy openpyxl
+
+# Run the analysis script
+python generate_meta_analysis_figures.py
+```
+
+**Want to explore the data?**
+→ Open `Supplementary Table Updated_ML_Brain tumors_2026.xlsx` for detailed study extraction data
+
+---
 
 ## 📁 Repository Structure
 
