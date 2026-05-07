@@ -67,38 +67,6 @@ This meta-analysis comprehensively addresses five critical research questions:
 
 ---
 
-## Research Context
-
-**Institution:** Yaqin Uddin Lab
-**Research Area:** Machine Learning in Medical Imaging | Diagnostic Oncology
-**Year:** 2026
-**Study Type:** Systematic Review & Meta-Analysis (PRISMA-Compliant)
-
-**Target Audience:**
-- Clinical researchers and oncologists
-- AI/ML researchers in medical imaging
-- Healthcare policy makers
-- Clinicians evaluating AI diagnostic tools
-
-## Quick Start
-
-**Want to see the results immediately?**
-Check out the `Figures/` directory for all 10 publication-quality visualizations
-
-**Want to regenerate figures from raw data?**
-```bash
-# Install dependencies
-pip install pandas numpy matplotlib seaborn scipy openpyxl
-
-# Run the analysis script
-python generate_meta_analysis_figures.py
-```
-
-**Want to explore the data?**
-Open `Supplementary Table Updated_ML_Brain tumors_2026.xlsx` for detailed study extraction data
-
----
-
 ## Repository Structure
 
 ```
