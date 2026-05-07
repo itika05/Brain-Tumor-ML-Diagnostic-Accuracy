@@ -184,19 +184,6 @@ The meta-analysis reveals:
 - Heterogeneity exists across tumor types and imaging modalities
 - Temporal trends show improving ML model performance over time
 
-## Citation
-
-If you use this meta-analysis in your research, please cite:
-
-```
-[Citation information to be added]
-```
-
-## Authors
-
-- **Dritika Arora** - Lead Researcher
-- [Team members to be added]
-
 ## Contact & Support
 
 For questions, issues, or contributions:
