@@ -6,20 +6,20 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 
-Brain tumors represent a critical healthcare challenge, with accurate and timely diagnosis being essential for patient outcomes. This repository contains a **comprehensive systematic review and meta-analysis** examining the diagnostic accuracy of machine learning models in brain tumor classification and detection. Our analysis synthesizes evidence from multiple peer-reviewed studies, comparing various ML techniques and their real-world performance metrics.
+Brain tumors represent a critical healthcare challenge, with accurate and timely diagnosis being essential for patient outcomes. This repository contains a comprehensive systematic review and meta-analysis examining the diagnostic accuracy of machine learning models in brain tumor classification and detection. Our analysis synthesizes evidence from multiple peer-reviewed studies, comparing various ML techniques and their real-world performance metrics.
 
-### 🎯 What This Project Does
+### What This Project Does
 
-This is a **research-driven meta-analysis** that:
-- 🔬 **Aggregates findings** from dozens of published studies on ML-based brain tumor diagnosis
-- 📊 **Compares performance** across Deep Learning (CNNs), Radiomics, Ensemble, and Classical ML approaches
-- 📈 **Provides evidence** on which ML approaches perform best for brain tumor detection
-- ✅ **Assesses quality** of studies using rigorous QUADAS-2 and PRISMA guidelines
-- 🔍 **Identifies trends** in how ML model performance has evolved over time
+This is a research-driven meta-analysis that:
+- Aggregates findings from dozens of published studies on ML-based brain tumor diagnosis
+- Compares performance across Deep Learning (CNNs), Radiomics, Ensemble, and Classical ML approaches
+- Provides evidence on which ML approaches perform best for brain tumor detection
+- Assesses quality of studies using rigorous QUADAS-2 and PRISMA guidelines
+- Identifies trends in how ML model performance has evolved over time
 
-### 🏥 Why This Matters
+### Why This Matters
 
 Machine learning has revolutionized medical imaging analysis. However, many studies report varying diagnostic accuracies (typically 75-95%). This meta-analysis answers critical questions:
 - Which ML approaches are most effective for brain tumor diagnosis?
@@ -29,61 +29,61 @@ Machine learning has revolutionized medical imaging analysis. However, many stud
 
 ---
 
-## 📋 Overview
+## Overview
 
-This repository contains a comprehensive **systematic review and meta-analysis** of machine learning models used for brain tumor diagnostic accuracy. The project systematically evaluates various ML approaches including deep learning (CNNs), radiomics, ensemble methods, and classical machine learning algorithms for their diagnostic performance in brain tumor classification.
+This repository contains a comprehensive systematic review and meta-analysis of machine learning models used for brain tumor diagnostic accuracy. The project systematically evaluates various ML approaches including deep learning (CNNs), radiomics, ensemble methods, and classical machine learning algorithms for their diagnostic performance in brain tumor classification.
 
 ### Key Features
-- 📊 **Comprehensive Meta-Analysis**: Aggregated analysis of multiple studies using ML for brain tumor diagnosis
-- 🎯 **Multiple ML Approaches**: Comparison of Deep Learning (CNN), Radiomics, Ensemble, and Classical ML models
-- 📈 **Detailed Visualizations**: 10 publication-quality figures including forest plots, SROC curves, and bias assessment
-- 🔬 **Rigorous Methodology**: PRISMA and QUADAS-2 standards applied for quality assessment
-- 📋 **Structured Data**: Organized data extraction with standardized fields
+- Comprehensive Meta-Analysis: Aggregated analysis of multiple studies using ML for brain tumor diagnosis
+- Multiple ML Approaches: Comparison of Deep Learning (CNN), Radiomics, Ensemble, and Classical ML models
+- Detailed Visualizations: 10 publication-quality figures including forest plots, SROC curves, and bias assessment
+- Rigorous Methodology: PRISMA and QUADAS-2 standards applied for quality assessment
+- Structured Data: Organized data extraction with standardized fields
 
-## 🎯 Research Objectives
+## Research Objectives
 
 This meta-analysis comprehensively addresses five critical research questions:
 
-1. **Synthesize Evidence** 📚
+1. **Synthesize Evidence**
    - What is the pooled diagnostic accuracy of ML models for brain tumor detection?
    - How do sensitivity and specificity values compare across studies?
 
-2. **Compare Approaches** 🔄
+2. **Compare Approaches**
    - Which ML technique performs best? (Deep Learning vs. Radiomics vs. Ensemble vs. Classical ML)
    - Are there significant differences in performance between tumor types (high-grade vs. low-grade)?
 
-3. **Evaluate Quality** ✅
+3. **Evaluate Quality**
    - What is the risk of bias in included studies?
    - How many studies meet high-quality diagnostic accuracy criteria?
 
-4. **Identify Trends** 📈
+4. **Identify Trends**
    - How has ML performance improved over time (temporal analysis)?
    - Does sample size influence reported accuracy?
    - Which imaging modalities (MRI, CT, etc.) show better performance?
 
-5. **Assess Publication Bias** 🔍
+5. **Assess Publication Bias**
    - Are positive results preferentially published?
    - What is the true effect size after correcting for publication bias?
 
 ---
 
-## 💼 Research Context
+## Research Context
 
-**Institution**: Yaqin Uddin Lab
-**Research Area**: Machine Learning in Medical Imaging | Diagnostic Oncology
-**Year**: 2026
-**Study Type**: Systematic Review & Meta-Analysis (PRISMA-Compliant)
+**Institution:** Yaqin Uddin Lab
+**Research Area:** Machine Learning in Medical Imaging | Diagnostic Oncology
+**Year:** 2026
+**Study Type:** Systematic Review & Meta-Analysis (PRISMA-Compliant)
 
-**Target Audience**:
+**Target Audience:**
 - Clinical researchers and oncologists
 - AI/ML researchers in medical imaging
 - Healthcare policy makers
 - Clinicians evaluating AI diagnostic tools
 
-## ⚡ Quick Start
+## Quick Start
 
 **Want to see the results immediately?**
-→ Check out the `Figures/` directory for all 10 publication-quality visualizations
+Check out the `Figures/` directory for all 10 publication-quality visualizations
 
 **Want to regenerate figures from raw data?**
 ```bash
@@ -95,11 +95,11 @@ python generate_meta_analysis_figures.py
 ```
 
 **Want to explore the data?**
-→ Open `Supplementary Table Updated_ML_Brain tumors_2026.xlsx` for detailed study extraction data
+Open `Supplementary Table Updated_ML_Brain tumors_2026.xlsx` for detailed study extraction data
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Diagnostic_Accuracy_Machine_Learning/
@@ -120,7 +120,7 @@ Diagnostic_Accuracy_Machine_Learning/
 └── create_repo.py                              # Repository initialization script
 ```
 
-## 📊 Key Findings
+## Key Findings
 
 ### Figure Descriptions
 
@@ -137,7 +137,7 @@ Diagnostic_Accuracy_Machine_Learning/
 | **Figure 9** | Leave-one-out sensitivity analysis assessing study influence |
 | **Figure 10** | Summary dashboard presenting all key metrics and outcomes |
 
-## 🔧 Technical Stack
+## Technical Stack
 
 - **Python 3.8+**: Core analysis language
 - **Pandas**: Data manipulation and analysis
@@ -146,7 +146,7 @@ Diagnostic_Accuracy_Machine_Learning/
 - **SciPy**: Statistical analyses
 - **Scikit-learn**: Machine learning utilities (if applicable)
 
-## 🚀 Usage
+## Usage
 
 ### Prerequisites
 ```bash
@@ -166,7 +166,7 @@ This script will:
 3. Generate all 10 figures
 4. Save them to the `Figures/` directory
 
-## 📖 Data Dictionary
+## Data Dictionary
 
 ### Key Variables in Data Extraction Table
 - **Study Identifiers**: Author, Year, Journal
@@ -176,7 +176,7 @@ This script will:
 - **Tumor Types**: High-grade vs Low-grade gliomas, other brain tumors
 - **Quality Metrics**: QUADAS-2 risk of bias assessment
 
-## 📈 Analysis Methods
+## Analysis Methods
 
 ### Statistical Approaches Used
 - **Meta-analysis**: Pooled estimation of diagnostic accuracy
@@ -189,25 +189,25 @@ This script will:
 - **QUADAS-2**: Standard tool for diagnostic accuracy bias assessment
 - **PRISMA Guidelines**: Systematic review reporting standards
 
-## 🔍 Methodology Highlights
+## Methodology Highlights
 
-✅ **Systematic Review Protocol**
+**Systematic Review Protocol**
 - Comprehensive literature search across PubMed, Scopus, Web of Science
 - Predefined inclusion/exclusion criteria
 - Duplicate screening and data extraction
 
-✅ **Machine Learning Categorization**
+**Machine Learning Categorization**
 - Deep Learning (CNNs, ResNets, VGG, Inception, DenseNet)
 - Radiomics (texture analysis, hand-crafted features)
 - Ensemble Methods (XGBoost, LightGBM, stacking)
 - Classical ML (SVM, Random Forest, Decision Trees)
 
-✅ **Tumor Classification**
+**Tumor Classification**
 - High-grade vs Low-grade gliomas
 - Grade III vs Grade IV separation
 - Specific tumor pathologies (Glioblastoma, etc.)
 
-## 💡 Key Insights
+## Key Insights
 
 The meta-analysis reveals:
 - Deep learning approaches show superior performance in most studies
@@ -216,7 +216,7 @@ The meta-analysis reveals:
 - Heterogeneity exists across tumor types and imaging modalities
 - Temporal trends show improving ML model performance over time
 
-## 📝 Citation
+## Citation
 
 If you use this meta-analysis in your research, please cite:
 
@@ -224,28 +224,28 @@ If you use this meta-analysis in your research, please cite:
 [Citation information to be added]
 ```
 
-## 👥 Authors
+## Authors
 
 - **Dritika Arora** - Lead Researcher
 - [Team members to be added]
 
-## 📞 Contact & Support
+## Contact & Support
 
 For questions, issues, or contributions:
 - Open an issue on GitHub
 - Contact the research team
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Yaqin Uddin Lab for research support
 - All authors of included studies in the meta-analysis
 - Collaborators and reviewers who contributed to study quality
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Related Publications
 - PRISMA Guidelines: https://www.prisma-statement.org/
@@ -258,5 +258,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Last Updated**: May 2026
-**Version**: 1.0
+**Last Updated:** May 2026
+**Version:** 1.0
